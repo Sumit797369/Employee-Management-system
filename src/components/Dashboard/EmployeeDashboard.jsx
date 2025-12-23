@@ -3,10 +3,10 @@ import Header from '../others/Header'
 import TaskListsNumber from '../others/TaskListsNumber'
 import TaskList from '../TaskList/TaskList'
 
-const EmployeeDashboard = () => {
+const EmployeeDashboard = (props) => {
   return (
     <div>
-      <div className='p-10 bg-amber-50 h-screen'>
+      <div className='p-10 bg-white h-screen'>
         <Header/>
         <TaskListsNumber/>
         <TaskList/>
